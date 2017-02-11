@@ -2,10 +2,11 @@
 var http = require('http');
 var path = require('path');
 var bodyParser = require('body-parser');
+// var mongodb = require('./logic/connect');
 
+// Server
 var express = require('express')
 var app = express();
-var server = http.createServer(app);
 var port = process.env.PORT || 3000;
 
 // App config
