@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Team Socially Dynamic</title>
+  <meta charset="utf-8"/>
+
+  <!-- INCLUDE BOOTSTRAP + CSS-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<!-- DISPLAY BODY -->
+<body ng-app="simpleNode" ng-controller="mainController">
+	<center>
+		<h1> {{test}}</h1>
+		<input type="text" placeholder="Your Name" ng-model="name"></input>
+		<h2> Hello {{name}} </h2>
+	</center>
+</body>
+
+
+<!-- INCLUDE ANGULAR + CONTROLLER-->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script src="controller/app.js"></script>
+</html>
